@@ -43,7 +43,7 @@ inquirer
             type: 'list',
             message: questions.shift(),
             name: 'license',
-            choices: ['Apache', 'MIT', 'Boost', 'Eclipse', 'Unlicense']
+            choices: ['Apache', 'MIT', 'Boost', 'Eclipse', 'Unlicense', 'No License']
         },
         {
             type: 'input',
