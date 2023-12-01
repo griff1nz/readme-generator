@@ -64,7 +64,7 @@ function renderLicenseSection(license) {
 //renders table of contents
 function renderTableOfContents(data) {
 tableOfContents = "## Table of Contents";
-tableOfContents += "\n[Description](#description)  \n[Usage](#usage)  \n[Credits](#credits)  \n";
+tableOfContents += "\n[Description](#description)  \n[Installation](#installation)  \n[Usage](#usage)  \n[Credits](#credits)  \n";
 if (data.license != "No License") {
   tableOfContents += "[License](#license)  \n";
 }
